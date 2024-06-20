@@ -1,0 +1,74 @@
+Myassignment.py
+
+Exercise 1: Create a Jupyter Notebook
+
+MyAssignment
+
+#Exercise 2- Create a markdown cell with the title of the notebook.
+
+Data Science Tools and Ecosystem
+
+#Exercise 3 - Create a markdown cell for an introduction.
+
+In this notebook, Data Science Tools and Ecosystem are summarized.
+
+Objectives: 1.List popular languages that Data Scientists use. 2.List commonly used libraries used by Data Scientists. 3.Comment on Data Science tools.
+
+#Exercise 4 - Create a markdown cell to list data science languages. (3 pts)
+
+Some of the popular languages that Data Scientists use are: Python SQL. Java. Julia. Scala. C/C++. JavaScript.
+
+#Exercise 5 - Create a markdown cell to list data science libraries.
+
+Some of the commonly used libraries used by Data Scientists include:
+
+TensorFlow. NumPy. SciPy. Pandas. Matplotlib. Keras. SciKit-Learn. PyTorch. Scrapy. BeautifulSoup. LightGBM. ELI5. Theano. NuPIC. Ramp. Pipenv. Bob. PyBrain. Caffe2. Chainer.
+
+#Exercise 6 - Create a markdown cell with a table of Data Science tools.
+
+Data Science Tools SAS: It is one of those data science tools which are specifically designed for statistical operation Apache Spark BigML
+
+Exercise 7 - Create a markdown cell introducing arithmetic expression examples
+# Arithmetic operations
+code = compile("5 + 4", "<string>", "eval")
+eval(code)
+# Result: 9
+
+code1 = compile("(5 + 7) * 2", "<string>", "eval")
+eval(code1)
+# Result: 24
+
+import math
+# Volume of a sphere
+code2 = compile("4 / 3 * math.pi * math.pow(25, 3)", "<string>", "eval")
+eval(code2)
+# Result: 65449.84694978735
+
+Exercise 8 - Create a code cell to multiply and add numbers This a simple arithmetic expression to mutiply then add integers
+
+(3*4)+5
+# Result: 17
+
+Exercise 9 - Create a code cell to convert minutes to hours. (2 pts)
+
+This will convert 200 minutes to hours by diving by 60
+
+days = 0
+hours = 0
+mins = 0
+
+time = 200
+#days = time / 1440
+leftover_minutes = time % 1440
+hours = leftover_minutes / 60
+#mins = time - (days*1440) - (hours*60)
+print(str(days) + " days, " + str(hours) + " hours, " + str(mins) +  " mins. ")
+
+# Result: 3.3333333333333335 hours
+
+#Exercise 10 -Insert a markdown cell to list Objectives.
+
+Below the introduction cell created in Exercise 3, insert a new markdown cell to list the objectives that this notebook covered (i.e. some of the key takeaways from the course). In this new cell start with an introductory line titled: Objectives: in bold font. Then using an unordered list (bullets) indicate 3 to 5 items covered in this notebook, such as List popular languages for Data Science.
+
+#Exercise 11 - Create a markdown cell to indicate the Author’s name
+Raviteja
